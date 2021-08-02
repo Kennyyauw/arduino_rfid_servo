@@ -47,7 +47,7 @@ void loop (){
   }
   Serial.println();
   content.toUpperCase();
-  if(content.substring(1) == "4A 8A 95 B3")
+  if(content.substring(1) == "4A 8A 95 B3") //設定你自己的uid
   { 
     Serial.println("access ok");
     Serial.println();
